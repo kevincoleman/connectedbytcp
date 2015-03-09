@@ -2,7 +2,7 @@
 
 // requires & definitions
 var TCPConnected = require('./index.js');
-Sunrise = new TCPConnected("10.0.1.35");
+Sunrise = new TCPConnected("10.0.1.3");
 
 //user vars
 var room = 'Office';
