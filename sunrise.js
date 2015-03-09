@@ -2,10 +2,10 @@
 
 // requires & definitions
 var TCPConnected = require('./index.js');
-Sunrise = new TCPConnected("192.168.1.137");
+Sunrise = new TCPConnected("10.0.1.35");
 
 //user vars
-var room = 'Living Room';
+var room = 'Office';
 var fadeDuration = 1;
 var step = 4;
 var sunrise;
